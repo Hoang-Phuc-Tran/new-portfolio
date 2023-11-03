@@ -41,7 +41,7 @@ const Portfolio = () => {
           Using HTML, CSS, JavaScript, and React, I've built a sleek web portfolio that showcases my expertise in modern web development.
           </p>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/Hoang-Phuc-Tran/My-Prortfolio" className="btn btn-github" target='_blank' rel="noreferrer">Github</a>
+            <a href="https://github.com/Hoang-Phuc-Tran/new-portfolio" className="btn btn-github" target='_blank' rel="noreferrer">Github</a>
             <a href="https://hoangphuctran.co/" className="btn btn-primary btn-live" target='_blank' rel="noreferrer">Live</a>
           </div>
         </article>
