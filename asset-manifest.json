@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.7cde652d.css",
-    "main.js": "/new-portfolio/static/js/main.605b4e0e.js",
-    "static/media/name222.png": "/new-portfolio/static/media/name222.2aaffb3b943dcc7a5b2f.png",
-    "static/media/me1.png": "/new-portfolio/static/media/me1.de2ec9e50c6784a8b2ce.png",
-    "static/media/hoangphuctran.pdf": "/new-portfolio/static/media/hoangphuctran.ff3317ece0c5fa0f2986.pdf",
-    "static/media/myPortfolio.png": "/new-portfolio/static/media/myPortfolio.741f65075ab5597ea8ea.png",
-    "static/media/rsz_capture212.png": "/new-portfolio/static/media/rsz_capture212.b4a6c0492da206df64ef.png",
-    "static/media/weather.jpg": "/new-portfolio/static/media/weather.aa77e71b4446c31f2054.jpg",
-    "static/media/rsz_2todo.png": "/new-portfolio/static/media/rsz_2todo.bb7013182873e6701943.png",
-    "index.html": "/new-portfolio/index.html",
-    "main.7cde652d.css.map": "/new-portfolio/static/css/main.7cde652d.css.map",
-    "main.605b4e0e.js.map": "/new-portfolio/static/js/main.605b4e0e.js.map"
+    "main.css": "./static/css/main.7cde652d.css",
+    "main.js": "./static/js/main.1cfa35d7.js",
+    "static/media/name222.png": "./static/media/name222.2aaffb3b943dcc7a5b2f.png",
+    "static/media/me1.png": "./static/media/me1.de2ec9e50c6784a8b2ce.png",
+    "static/media/hoangphuctran.pdf": "./static/media/hoangphuctran.ff3317ece0c5fa0f2986.pdf",
+    "static/media/myPortfolio.png": "./static/media/myPortfolio.741f65075ab5597ea8ea.png",
+    "static/media/rsz_capture212.png": "./static/media/rsz_capture212.b4a6c0492da206df64ef.png",
+    "static/media/weather.jpg": "./static/media/weather.aa77e71b4446c31f2054.jpg",
+    "static/media/rsz_2todo.png": "./static/media/rsz_2todo.bb7013182873e6701943.png",
+    "index.html": "./index.html",
+    "main.7cde652d.css.map": "./static/css/main.7cde652d.css.map",
+    "main.1cfa35d7.js.map": "./static/js/main.1cfa35d7.js.map"
   },
   "entrypoints": [
     "static/css/main.7cde652d.css",
-    "static/js/main.605b4e0e.js"
+    "static/js/main.1cfa35d7.js"
   ]
 }
