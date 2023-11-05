@@ -46,12 +46,6 @@ const Experience = () => {
                 <h4 className="sub-heading">C#</h4>
               </div>
             </article>
-          <article className='experience__details'>
-              <TbShieldCheckeredFilled className='experience__details-icon'/>
-              <div>
-                <h4 className="sub-heading">HTML</h4>
-              </div>
-            </article>
             <article className='experience__details'>
               <TbShieldCheckeredFilled className='experience__details-icon'/>
               <div>
