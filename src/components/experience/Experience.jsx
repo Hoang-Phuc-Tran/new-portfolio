@@ -3,8 +3,6 @@ import './experience.css'
 import {TbShieldCheckeredFilled} from 'react-icons/tb'
 
 
-
-
 const Experience = () => {
   return (
     <section id='experience'>
