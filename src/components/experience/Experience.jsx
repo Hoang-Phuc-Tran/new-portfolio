@@ -63,6 +63,12 @@ const Experience = () => {
             <article className="experience__details">
               <TbShieldCheckeredFilled className="experience__details-icon" />
               <div>
+                <h4 className="sub-heading">TypeScript</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <TbShieldCheckeredFilled className="experience__details-icon" />
+              <div>
                 <h4 className="sub-heading">Python</h4>
               </div>
             </article>
