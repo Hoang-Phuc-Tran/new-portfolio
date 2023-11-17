@@ -118,7 +118,13 @@ const Portfolio = () => {
           <h3>Web Chat</h3>
           <div className="portfolio__item-tec">
             <div className="tec-icon tec-icon-0">
-              <FaReact />
+              <ImHtmlFive2 />
+            </div>
+            <div className="tec-icon tec-icon-1 icon-css">
+              <TbBrandCss3 />
+            </div>
+            <div className="tec-icon tec-icon-2">
+              <FaJsSquare />
             </div>
             <div className="tec-icon tec-icon-1 icon-css">
               <BiLogoTypescript />
@@ -138,7 +144,7 @@ const Portfolio = () => {
           </p>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Hoang-Phuc-Tran/Ecommerce-Project"
+              href="https://github.com/Hoang-Phuc-Tran/Full-Stack-Chat-Project"
               className="btn btn-github"
               target="_blank"
               rel="noreferrer"
