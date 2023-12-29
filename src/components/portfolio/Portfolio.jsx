@@ -151,6 +151,14 @@ const Portfolio = () => {
             >
               Github
             </a>
+            <a
+              href="https://hoang-phuc-tran.github.io/Frontend-WebChat/"
+              className="btn btn-primary btn-live"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
