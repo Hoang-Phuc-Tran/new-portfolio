@@ -43,6 +43,27 @@ textarea {
   text-align: center;
 }
 
+/* Place this in your contact.css */
+.confirmation-message {
+  position: absolute;
+  bottom: -40px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Show confirmation message (visibility and opacity) */
+.confirmation-message.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 /* Medium devices */
 @media screen and (max-width: 1024px) {
   .container.contact__container {

@@ -1,8 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/myPortfolio.png";
 import IMG2 from "../../assets/weather.jpg";
-import IMG3 from "../../assets/rsz_2todo.png";
+import IMG3 from "../../assets/Logo_Budget.jpg";
 import IMG4 from "../../assets/rsz_capture212.png";
 import IMG5 from "../../assets/webchat1.png";
 import { FaJsSquare, FaReact } from "react-icons/fa";
@@ -22,9 +21,9 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG3} alt="" />
           </div>
-          <h3>My Portfolio Website</h3>
+          <h3>Budget Cloud</h3>
           <div className="portfolio__item-tec">
             <div className="tec-icon tec-icon-0">
               <ImHtmlFive2 />
@@ -38,16 +37,19 @@ const Portfolio = () => {
             <div className="tec-icon tec-icon-3">
               <FaReact />
             </div>
+            <div className="tec-icon tec-icon-1">
+              <SiDjango />
+            </div>
           </div>
           <p className="expanded">
-            Welcome to my portfolio. I am Hoang Phuc Tran, a full-stack developer passionate about
-            creating seamless web experiences. Using HTML, CSS, JavaScript, and React, I've crafted
-            this space to highlight my projects and skills in contemporary web development. Browse,
-            and enjoy the fusion of functionality and aesthetics.
+            Discover BudgetCloud, created by Conestoga students to simplify cloud service selection
+            with immediate price comparisons across AWS, Azure, GCP, and Oracle. Our platform
+            ensures easy navigation and tailored, cost-effective solutions, helping you make
+            informed decisions through a user-friendly interface.
           </p>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Hoang-Phuc-Tran/new-portfolio"
+              href="https://github.com/bjasim/cloud-calculator"
               className="btn btn-github"
               target="_blank"
               rel="noreferrer"
@@ -55,7 +57,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://hoangphuctran.co/"
+              href="https://budgetcloud.ca/"
               className="btn btn-primary btn-live"
               target="_blank"
               rel="noreferrer"
@@ -137,10 +139,10 @@ const Portfolio = () => {
             </div>
           </div>
           <p className="expanded">
-            Welcome to the Real-Time Chat Platform! Our application brings you closer to your
-            network with instant communication, crafted meticulously using React, TypeScript,
-            Django, Channels, and Django REST Framework. Engage in live conversations, enjoy a sleek
-            user interface, and rely on secure, scalable backend technology.
+            Welcome to our Real-Time Chat Platform, meticulously crafted with React, TypeScript,
+            Django, Channels, and Django REST Framework. This application brings you closer to your
+            network through instant communication, featuring a sleek user interface and relying on
+            secure, scalable backend technology.
           </p>
           <div className="portfolio__item-cta">
             <a
@@ -161,42 +163,6 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="" className="image-weather" />
-          </div>
-          <h3>To Do App</h3>
-          <div className="portfolio__item-tec">
-            <div className="tec-icon tec-icon-0 icon-boot">
-              <FaBootstrap />
-            </div>
-            <div className="tec-icon tec-icon-1">
-              <SiDjango />
-            </div>
-          </div>
-          <p className="expanded">
-            This task management app is built with Django and Bootstrap, which lets you easily
-            manage and organize daily tasks.
-          </p>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/Hoang-Phuc-Tran/Todo_App"
-              className="btn btn-github"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://todo-appp.up.railway.app/"
-              className="btn btn-primary btn-live"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live
-            </a>
-          </div>
-        </article>{" "}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
