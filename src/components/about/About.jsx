@@ -38,10 +38,11 @@ const About = () => {
             Django, and Django REST to deliver engaging and effective web solutions.
             <br />
             <br />
-            Proficient in programming languages such as C, C++, C#, and Python, I also work
-            comfortably within Linux environments and employ Git for robust version control. I am
-            currently enhancing my skills in testing frameworks, including Selenium for automated
-            browser testing and Postman for API testing, ensuring high-quality software solutions.
+            As a CCNA-certified professional, I am skilled in network configurations, including
+            VLANs, DHCP, NAT, and inter-VLAN routing, bringing a strong foundation in networking to
+            my development capabilities. Proficient in programming languages such as C, C++, C#, and
+            Python, I am also well-versed in Linux environments and use Git for version control and
+            team collaboration.
             <br />
             <br />
             Git is my ally for version control, aiding me in managing repositories, tracking

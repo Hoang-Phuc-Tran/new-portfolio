@@ -4,6 +4,8 @@ import IMG2 from "../../assets/weather.jpg";
 import IMG3 from "../../assets/Logo_Budget.jpg";
 import IMG4 from "../../assets/rsz_capture212.png";
 import IMG5 from "../../assets/webchat1.png";
+import IMG6 from "../../assets/campus.png";
+import IMG7 from "../../assets/voip.png";
 import { FaJsSquare, FaReact } from "react-icons/fa";
 import { ImHtmlFive2 } from "react-icons/im";
 import { TbBrandCss3 } from "react-icons/tb";
@@ -55,14 +57,6 @@ const Portfolio = () => {
               rel="noreferrer"
             >
               Github
-            </a>
-            <a
-              href="https://budgetcloud.ca/"
-              className="btn btn-primary btn-live"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live
             </a>
           </div>
         </article>
@@ -189,13 +183,50 @@ const Portfolio = () => {
             >
               Github
             </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>VoIP Telephony Service Network</h3>
+          <div className="portfolio__item-tec"></div>
+          <p className="expanded">
+            Designed and implemented a scalable VoIP-enabled network for a newly acquired branch of
+            Turtle Consultancy Limited, supporting seamless communication across departments using
+            VLANs, dynamic IP allocation, OSPF routing, and secure remote access via SSH.
+          </p>
+          <div className="portfolio__item-cta">
             <a
-              href="https://weather-appp.up.railway.app/"
-              className="btn btn-primary btn-live"
+              href="https://github.com/Hoang-Phuc-Tran/VoIP-Telephony-Service-Network-Design"
+              className="btn btn-github"
               target="_blank"
               rel="noreferrer"
             >
-              Live
+              Github
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" className="img06" />
+          </div>
+          <h3>Campus Network</h3>
+          <div className="portfolio__item-tec"></div>
+          <p className="expanded">
+            Designed a robust network topology for a large university with two campuses,
+            implementing VLANs, RIPv2 routing, dynamic IP allocation, and SSH for secure remote
+            access to ensure seamless communication and efficient resource management across
+            faculties and departments.
+          </p>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/Hoang-Phuc-Tran/Campus-Network"
+              className="btn btn-github"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
             </a>
           </div>
         </article>
